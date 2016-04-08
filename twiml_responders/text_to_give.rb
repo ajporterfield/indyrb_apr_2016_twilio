@@ -1,4 +1,4 @@
-class TextToGiveResponder
+class TwimlResponders::TextToGive
   include Rails.application.routes.url_helpers # for new_donation_url
   include ActionView::Helpers::NumberHelper # for number_to_currency
   include UrlsHelper # for shorten_url and secure_url_options
